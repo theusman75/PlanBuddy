@@ -5,7 +5,7 @@
 PlanBuddy is a **React Native + Expo app** that helps users turn their goals into structured, actionable tasks using the **Google Gemini AI**.
 
 - Users can enter a goal and select a time horizon (Today / This Week).
-- The app calls a backend server which queries Gemini to generate a strictly-structured JSON task plan.
+- The app calls a backend server, which queries Gemini to generate a strictly-structured JSON task plan.
 - Users can mark tasks complete/incomplete, filter by priority, and persist data locally.
 
 ---
@@ -49,7 +49,7 @@ PlanBuddy is a **React Native + Expo app** that helps users turn their goals int
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/planbuddy.git
+git clone https://github.com/theusman75/PlanBuddy.git
 cd planbuddy/app
 ```
 
@@ -69,7 +69,7 @@ Create a `.env` file in the `app/` folder:
 EXPO_PUBLIC_API_BASE_URL=http://...
 ```
 
-> Note: use your computer’s local network IP
+> Note: Use your computer’s local network IP
 
 ### 4. Start Expo
 
@@ -142,7 +142,7 @@ app/
 
 1. Make sure the **backend server** is running on `http://localhost:8787` (or your network IP).
 2. Start the Expo app (`npm start`) and confirm `EXPO_PUBLIC_API_BASE_URL` matches your server URL.
-3. Generate a plan in the app and verify tasks are persisted after restart.
+3. Generate a plan in the app and verify tasks are persisted after a restart.
 
 ---
 
